@@ -1,0 +1,53 @@
+""" Flexbox: alinhando textos e imagens """
+
+<main class="container">
+  <p class="texto">Texto aqui...</p>
+  <img class="imagem">
+</main>
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+""" Flexbox: Centralização vertical  """
+
+<div class="container">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <!-- Mais itens aqui -->
+</div>
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 300px; /* Altura ajustável conforme necessário */
+}
+
+""" Flexbox: responsividade e alinhamento """
+
+<div class="responsivo-container">
+  <div>Conteúdo 1</div>
+  <div>Conteúdo 2</div>
+  <!-- Mais conteúdos -->
+</div>
+
+.responsivo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+""" PARA CRIAR UMA PÁGINA SEM SCROLL """
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Estilos para os blocos de conteúdo conforme o design do Figma */
