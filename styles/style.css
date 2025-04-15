@@ -167,7 +167,17 @@ body {
     }
 
     .apresentacao__links__navegacao{
-        font-size: 0.875rem;
+        font-size: 0.900rem;      
+        height: auto;
+        text-align: center;
+        padding-top: 1.25rem;
+        
+    }
+
+    .apresentacao__links__navegacao__imagem{
+        width: 1.75rem; 
+        height: auto; 
+        text-align: center;
     }
     
 }
